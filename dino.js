@@ -25,12 +25,12 @@ export function setupDino() {
   // document.addEventListener("keydown", onJump);
 }
 
-function onTouch() {
-  if (!isJumping) {
-    yVelocity = JUMP_SPEED;
-    isJumping = true;
-  }
-}
+// function onTouch() {
+//   if (!isJumping) {
+//     yVelocity = JUMP_SPEED;
+//     isJumping = true;
+//   }
+// }
 export function updateDino(delta, speedScale) {
   handleRun(delta, speedScale);
   handleJump(delta);
